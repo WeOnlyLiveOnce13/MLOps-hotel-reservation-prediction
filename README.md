@@ -9,12 +9,19 @@ An end-to-end implementation to predict whether a customer will honor or default
 
 ## Project flow
 
+**Design flow**
+
 ![flow](./public/flow.png)
 
 
+**Initial flask app**
 ![app test](./public/UI.png)
 
+
+**Successful deployment of the flask app on GC Run with Jenkins** 
 ![successful deployment of app on GC Run](./public/Successful%20deployment%20of%20jenkins%20pipeline.png)
+
+
 ## Key features
 
 -   💾Data ingestion into `GCP bucket`.
@@ -24,5 +31,6 @@ An end-to-end implementation to predict whether a customer will honor or default
 -   📲 `Jenkins` and `Google Cloud , Registry and Run` for CI/CD where DinD (docker in docker) is applied to containerize both Jenkins and the code base. 
 -   🌐 `flask` for User application.
 
+**Testing deployed flask app**
 ![Test deployed flask app](./public/Test%20deployed%20app.png)
 
